@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ssttevee/go-ffmpeg/internal/util"
+	"github.com/skourismanolis/go-ffmpeg/internal/util"
 )
 
 var equalsPattern = regexp.MustCompile(`(\w+)=\s*([^ ]+)`)

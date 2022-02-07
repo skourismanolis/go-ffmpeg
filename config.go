@@ -3,7 +3,7 @@ package ffmpeg
 import (
 	"sync"
 
-	"github.com/ssttevee/go-ffmpeg/internal/util"
+	"github.com/skourismanolis/go-ffmpeg/internal/util"
 )
 
 var (
