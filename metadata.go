@@ -56,6 +56,7 @@ type Stream struct {
 	Duration           string      `json:"duration"`
 	Disposition        Disposition `json:"disposition"`
 	BitRate            string      `json:"bit_rate"`
+	Tags               map[string]interface{}  `json:"tags"`
 }
 
 // Disposition represents stream disposition
